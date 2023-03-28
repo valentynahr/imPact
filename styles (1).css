@@ -1,0 +1,159 @@
+/*Styles for the menu */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #222222;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 16px 14px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #413f3f;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #FF7043;
+    color: white;
+}
+
+/* Change the color of the last button on hover */
+.topnav a.active :hover {
+    background-color: #fe835e;
+    color: white;
+}
+
+/* Styles for the main Section of the page */
+h1,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.headerBlVio {
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.addBorder {
+    border: 1px solid black;
+}
+
+.book {
+    margin: 0 auto;
+}
+
+form {
+    background-color: #EAFAFF;
+}
+
+/* 100% width of the available width from parent (limited by form's width) */
+select,
+input {
+    width: 100%;
+}
+
+.centerAlign {
+    text-align: center
+}
+
+.checkboxInput {
+    width: 5%;
+}
+
+/* Input button styling */
+.submitButton {
+    background-color: red;
+    color: white;
+    width: 98%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*Add media for for adapting the menu buttons and images  */
+@media (max-width: 992px) {
+    .navLinks a {
+        display: none;
+    }
+    .logo {
+        width: 50px;
+    }
+    .book {
+        width: 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navLinks {
+        font-size: 10px;
+    }
+    .book {
+        width: 150px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .navLinks {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .navLinks {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .navLinks {
+        font-size: 13px;
+    }
+    .book {
+        width: 180px;
+    }
+}
+
+@media (min-width: 1450px) {
+    .navLinks {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .navLinks {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .center {
+      text-align: center;
+      font-size: large;
+      border-bottom: 1px solid white;
+      padding-bottom: 25px;
+      padding-top: 15px;
+    }
+  }
